@@ -34,7 +34,7 @@
                 </ul>
         
                 <div class="text-end">
-                  <a href="register.html" type="button" class="botao-chip-branco rounded-pill">Sign-up</a>
+                  <a href="register.html" type="button" class="botao-chip-branco rounded-pill">Sign-Up</a>
                 </div>
               </div>
             </div>
@@ -49,11 +49,33 @@
                 </div> 
 
                 <div class="col-sm-12 col-md-12 col-lg-6 align-self-center text-center">
-                    <div class="row p-2">
-                        <h1 class="p-20"><strong>Login</strong></h1>
-                    </div>
-                    
-                </div>  
+
+                  <form class="needs-validation AVAST_PAM_nonloginform p-4" novalidate="">
+                      <div class="row g-3">
+
+                          <div class="col-12">
+                              <label for="email" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                              <div class="invalid-feedback">
+                                  Por favor, insira um email válido.
+                              </div>
+                          </div>
+
+                          <div class="col-12">
+                              <label for="password" class="form-label">Senha</label>
+                              <input type="password" class="form-control" id="email" placeholder="******">
+                              <div class="invalid-feedback">
+                                  Por favor, insira uma senha válida.
+                              </div>
+                          </div>
+
+                          <a href="dashboard.html" class="botao-chip-branco rounded-pill mt-5" type="submit">Login</a>
+
+                      </div>
+
+
+                  </form>
+              </div> 
             
             </div>
         </div>

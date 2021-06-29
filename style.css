@@ -14,6 +14,7 @@ h1 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     font-style: bold;
+    padding-bottom: 20px;
 }
 .botaoMedio {
     font-size: medium;
@@ -65,4 +66,25 @@ h1 {
 }
 label {
     color: white;
+}
+table {
+    background-color: white;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+th {
+    color: var(--main_blue);
+    font-size: large;
+}
+td {
+    font-weight: 600;
+    color: black;
+    background-color:  transparent;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
