@@ -1,7 +1,5 @@
 **FIAP - Health Track**
 
-Link: https://fiap-health-track.vercel.app/
-
 **Fase 4: Html, Css e Bootstrap**
 - Mantenha o HTML separado do CSS em arquivos .html e .css, respectivamente.
 - Use e abuse o Bootstrap: deixe o CSS para personalizações que “fujam” dos padrões do framework (com ele é mais rápido!).
